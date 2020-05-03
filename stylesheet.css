@@ -3,9 +3,7 @@
  dark background rgba(40, 39, 39, 1);
  black rgba(0, 0, 0, 1);
  dark grey rgba(248, 249, 250, 1);
- 
- 
- -----*/
+ light background rgba(248, 249, 250, 1) -----*/
 
 
  /* HTML/Global */
@@ -18,7 +16,6 @@
 
  /* header */
  #logo {
-   
    padding: 25px 20% 50px 20%;
    background-color: rgba(248, 249, 250, 1);
  }
