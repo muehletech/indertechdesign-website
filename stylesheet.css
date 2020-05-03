@@ -6,11 +6,11 @@
  
  
  -----*/
- 
- 
+
+
  /* HTML/Global */
  body {
-   background-color: rgba(248, 249, 250, 1);
+  background-color: rgba(253, 179, 56, 1);
  }
 
 
@@ -18,58 +18,65 @@
 
  /* header */
  #logo {
-  width: 60%;
- margin: 25px 20% 50px 20%;
-}
-#missionStatement {
+   
+   padding: 25px 20% 50px 20%;
+   background-color: rgba(248, 249, 250, 1);
+ }
+
+ #missionStatement {
+   background-color: rgba(253, 179, 56, 1);
+   padding: 50px 5%;
+ }
+
+ /* features carousel ---*/
+#carousel {
+  height: 300px;
   background-color: rgba(0, 0, 0, 1);
-  
-  
 }
  /* portfolio */
-
+ #portfolio, #infoSection {
+  height: 100px;
+  background-color: rgba(253, 179, 56, 1);
+}
  /* infoSection */
 
  /* contactUs */
 
  /* footer */
-
-/*
+ #footer {
+  height: 75px;
+  background-color: rgba(0, 0, 0, 1);
+}
+ /*
 ####################################################
 M E D I A  Q U E R I E S
 ####################################################
 */
-@media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px;
-  }
+ @media screen and (max-height: 450px) {
+   .sidenav {
+     padding-top: 15px;
+   }
 
-  .sidenav a {
-    font-size: 18px;
-  }
-}
- 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {  
-  /* #logo {
+   .sidenav a {
+     font-size: 18px;
+   }
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) {
+   /* #logo {
     width: 60%;
    margin-left:20%;
    margin-right: 20%;
    margin-bottom: 20px;
   } */
-}
- 
-/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 768px) {  
- 
-}
- 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
- 
-}
- 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  
-    
-}
+ }
+
+ /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+ @media (min-width: 768px) {}
+
+ /* Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) {}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) {}
