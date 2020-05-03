@@ -19,27 +19,31 @@
 </head>
 
 <body role="document">
-  <!--Navigation bar-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link" role=link href="#missionStatement">mission statement</a>
-        <a class="nav-item nav-link" role=link href="#portfolio">portfolio</a>
-        <a class="nav-item nav-link" role=link href="#aboutUs">about us</a>
-        <a class="nav-item nav-link" role=link href="#contactUs">contact us</a>
-
-      </div>
-    </div>
-  </nav>
+<div>
   <header role=banner>
+    <!--Navigation bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" id="navBar">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon text-body"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active font-weight-bold" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link text-body" role=link href="#missionStatement">mission statement</a>
+          <a class="nav-item nav-link text-body" role=link href="#portfolio">portfolio</a>
+          <a class="nav-item nav-link text-body" role=link href="#aboutUs">about us</a>
+          <a class="nav-item nav-link text-body" role=link href="#contactUs">contact us</a>
+
+        </div>
+      </div>
+    </nav>
     <img src="/assets/muehle_tech_logo_large.png" id="smallLogo" class="img-fluid" alt="Responsive image"
       alt="Muehle Tech Design orange and black logo">
   </header>
+
+
   <!-- welcome -->
   <section id="missionStatement" role=region>
     <h1>welcome</h1>
@@ -49,6 +53,12 @@
     </p>
     <h2>mission statement</h2>
   </section>
+
+</div>
+
+
+
+
   <!-- features carousel -->
   <section id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" role=region>
     <div class="carousel-inner">
@@ -63,6 +73,9 @@
       </div>
     </div>
   </section>
+
+
+
   <!-- portfolio-->
   <section>
     <h2 id="portfolio" role=region>portfolio</h2>
@@ -72,10 +85,16 @@
     <h2>about us</h2>
   </aside>
 
+
+
+
   <!-- contact us-->
   <h2 id="contactUs">contact us</h2>
 
   <p role=link><a href="mailto:muehletechdesign@gmail.com">Send email</a></p>
+
+
+
 
   <!-- footer -->
   <footer role=contentinfo>
@@ -84,6 +103,11 @@
     </p>
     <p>&copy 2020 Muehle Tech Design</p>
   </footer>
+
+
+
+
+  
 
   <script src="/scriptsheet.js"></script>
 </body>

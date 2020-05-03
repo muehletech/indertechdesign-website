@@ -1,13 +1,29 @@
+ /* ------ color scheme 
+ goldenrod rgba(253, 179, 56, 1);
+ boarder color rgba(40, 39, 39, 1);
+ text color rgba(0, 0, 0, 1);
+ background rgba(248, 249, 250, 1);
+ 
+ 
+ -----*/
+ 
+ 
  /* HTML/Global */
  body {
-   background-color: #F7F7F7;
+   background-color: rgba(248, 249, 250, 1);
  }
 
 
  /* Navigation Bar */
- 
- /* header */
 
+ /* header */
+ #header {
+   width: 50%;
+ }
+#missionStatement {
+  background-color: purple;
+  
+}
  /* portfolio */
 
  /* infoSection */
