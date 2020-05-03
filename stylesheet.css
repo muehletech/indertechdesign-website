@@ -1,8 +1,8 @@
  /* ------ color scheme 
  goldenrod rgba(253, 179, 56, 1);
- boarder color rgba(40, 39, 39, 1);
- text color rgba(0, 0, 0, 1);
- background rgba(248, 249, 250, 1);
+ dark background rgba(40, 39, 39, 1);
+ black rgba(0, 0, 0, 1);
+ dark grey rgba(248, 249, 250, 1);
  
  
  -----*/
@@ -17,11 +17,13 @@
  /* Navigation Bar */
 
  /* header */
- #header {
-   width: 50%;
- }
+ #logo {
+  width: 60%;
+ margin: 25px 20% 50px 20%;
+}
 #missionStatement {
-  background-color: purple;
+  background-color: rgba(0, 0, 0, 1);
+  
   
 }
  /* portfolio */
@@ -49,7 +51,12 @@ M E D I A  Q U E R I E S
  
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {  
- 
+  /* #logo {
+    width: 60%;
+   margin-left:20%;
+   margin-right: 20%;
+   margin-bottom: 20px;
+  } */
 }
  
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
