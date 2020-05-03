@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="/stylesheet.css">
 </head>
 
-<body>
+<body role="document">
   <!--Navigation bar-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#"></a>
@@ -28,22 +28,20 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <!-- <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a> -->
-        <a class="nav-item nav-link" href="#missionStatement">mission statement</a>
-        <a class="nav-item nav-link" href="#portfolio">portfolio</a>
-        <a class="nav-item nav-link" href="#aboutUs">about us</a>
-        <a class="nav-item nav-link" href="#contactUs">contact us</a>
-        
+        <a class="nav-item nav-link" role=link href="#missionStatement">mission statement</a>
+        <a class="nav-item nav-link" role=link href="#portfolio">portfolio</a>
+        <a class="nav-item nav-link" role=link href="#aboutUs">about us</a>
+        <a class="nav-item nav-link" role=link href="#contactUs">contact us</a>
+
       </div>
     </div>
   </nav>
-  <header>
+  <header role=banner>
     <img src="/assets/muehle_tech_logo_large.png" id="smallLogo" class="img-fluid" alt="Responsive image"
       alt="Muehle Tech Design orange and black logo">
   </header>
-
   <!-- welcome -->
-  <section id="missionStatement">
+  <section id="missionStatement" role=region>
     <h1>welcome</h1>
     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis et turpis in ultrices. Sed tellus
       velit, aliquam sed ex egestas, semper luctus elit. Suspendisse fringilla lacus at mauris convallis eleifend.
@@ -51,9 +49,8 @@
     </p>
     <h2>mission statement</h2>
   </section>
-
   <!-- features carousel -->
-  <section id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <section id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" role=region>
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="..." class="d-block w-100" alt="...">
@@ -66,25 +63,25 @@
       </div>
     </div>
   </section>
-
   <!-- portfolio-->
   <section>
-<h2 id="portfolio">portfolio</h2>
+    <h2 id="portfolio" role=region>portfolio</h2>
   </section>
-
   <!-- aboutSection -->
-  <section id="aboutUs">
-  <h2>about us</h2>
-  </section>
+  <aside id="aboutUs" role=complementary>
+    <h2>about us</h2>
+  </aside>
 
   <!-- contact us-->
   <h2 id="contactUs">contact us</h2>
 
-<p><a href="mailto:muehletechdesign@gmail.com">Send email</a></p>
+  <p role=link><a href="mailto:muehletechdesign@gmail.com">Send email</a></p>
 
   <!-- footer -->
-  <footer>
-    <p>We believe in equal opportunity . All web projects will be considered for development without attention to age, race, color, religion, sex, sexual orientation, gender identity, national origin, veteran or disability status.”</p>
+  <footer role=contentinfo>
+    <p>We believe in equal opportunity . All web projects will be considered for development without attention to age,
+      race, color, religion, sex, sexual orientation, gender identity, national origin, veteran or disability status.”
+    </p>
     <p>&copy 2020 Muehle Tech Design</p>
   </footer>
 
